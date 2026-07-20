@@ -15,14 +15,29 @@
     combos {
         compatible = "zmk,combos";
 
-        tab {
-            bindings = <&kp TAB>;
-            key-positions = <11 12>;
+        shift_tab {
+            bindings = <&kp LS(GRAVE)>;
+            key-positions = <0 1>;
         };
 
-        shift_tab {
+        esc {
+            bindings = <&kp ESCAPE>;
+            key-positions = <1 2>;
+        };
+
+        backspace {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <13 14>;
+        };
+
+        backtab {
             bindings = <&kp LS(TAB)>;
-            key-positions = <12 13>;
+            key-positions = <25 26>;
+        };
+
+        return {
+            bindings = <&kp ENTER>;
+            key-positions = <2 3>;
         };
     };
 
