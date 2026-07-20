@@ -159,8 +159,8 @@
         layer_1 {
             bindings = <
 &kp PAGE_UP    &kp HOME        &kp UP_ARROW  &kp END    &mkp MB5         &kp AT_SIGN                         &kp LEFT_PARENTHESIS  &kp DOUBLE_QUOTES  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp QMARK
-&kp PAGE_DOWN  &kp LEFT_ARROW  &kp DOWN      &kp RIGHT  &mkp MB4         &kp HASH                            &kp LEFT_BRACKET      &kp SINGLE_QUOTE   &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp PIPE
-&kp LC(Z)      &kp LC(X)       &kp LC(C)     &kp LC(V)  &kp PRINTSCREEN  &kp PRINTSCREEN                     &kp SLASH             &kp BACKSLASH      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERCENT
+&kp PAGE_DOWN  &kp LEFT_ARROW  &kp DOWN      &kp RIGHT  &mkp MB4         &kp HASH                            &kp LEFT_BRACKET      &kp KP_MINUS       &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp KP_SLASH
+&kp LC(Z)      &kp LC(X)       &kp LC(C)     &kp LC(V)  &kp PRINTSCREEN  &kp PRINTSCREEN                     &kp SLASH             &kp KP_PLUS        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERCENT
                &kp ESC         &kp NUMBER_0  &kp DOT    &trans           &trans           &trans    &kp RET  &kp NUMBER_0                                           &kp DEL       &trans
             >;
         };
