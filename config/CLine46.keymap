@@ -39,6 +39,16 @@
             bindings = <&kp ENTER>;
             key-positions = <2 3>;
         };
+
+        del {
+            bindings = <&kp DELETE>;
+            key-positions = <14 15>;
+        };
+
+        tab {
+            bindings = <&kp TAB>;
+            key-positions = <26 27>;
+        };
     };
 
     macros {
