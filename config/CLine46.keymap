@@ -115,6 +115,18 @@
             require-prior-idle-ms = <125>;
             flavor = "tap-preferred";
         };
+
+        lt2: lt2 {
+            compatible = "zmk,behavior-hold-tap";
+            bindings = <&mo>, <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+            quick-tap-ms = <200>;
+            require-prior-idle-ms = <125>;
+            flavor = "tap-preferred";
+            label = "LT2";
+        };
     };
 
     keymap {
@@ -124,7 +136,7 @@
             bindings = <
 &kp Q  &kp W    &kp D     &kp R     &kp V               &none                                          &none                &kp Y  &kp Y  &kp K         &kp P    &mt2 LBKT SLASH
 &kp A  &kp S    &kp E     &kp T     &kp G               &none                                          &none                &kp H  &kp U  &mt2 RSHFT I  &kp O    &mt2 EQUAL MINUS
-&kp Z  &kp X    &kp C     &kp B     &kp F               &none                                          &none                &kp J  &kp N  &kp M         &lt 4 L  &kp INTERNATIONAL_1
+&kp Z  &kp X    &kp C     &kp B     &kp F               &none                                          &none                &kp J  &kp N  &kp M         &lt 4 L  &lt2 3 INT1
        &kp ESC  &kp LGUI  &kp LALT  &lt 3 INT_MUHENKAN  &lt 1 SPACE  &mt LSFT INT_HENKAN    &lt 2 RET  &mt RSHFT BACKSPACE                &kp NUMBER_9  &kp DEL
             >;
         };
@@ -140,10 +152,10 @@
 
         layer_5 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
-        &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                  &trans  &trans
+&kp F1  &kp F2  &kp F7   &kp F8   &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
+&kp F3  &kp F4  &kp F9   &kp F10  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
+&kp F5  &kp F6  &kp F11  &kp F12  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
+        &trans  &trans   &trans   &trans  &trans  &trans    &trans  &trans                  &trans  &trans
             >;
         };
 
