@@ -167,10 +167,10 @@
 
         layer_5 {
             bindings = <
-&kp F1  &kp F2  &kp F7   &kp F8   &trans  &trans                    &trans  &trans  &kp LS(NUMBER_1)  &trans  &trans  &trans
-&kp F3  &kp F4  &kp F9   &kp F10  &trans  &trans                    &trans  &trans  &trans            &trans  &trans  &trans
-&kp F5  &kp F6  &kp F11  &kp F12  &trans  &trans                    &trans  &trans  &trans            &trans  &trans  &trans
-        &trans  &trans   &trans   &trans  &trans  &trans    &trans  &trans                            &trans  &trans
+&kp F1  &kp F2  &kp F7   &kp F8   &trans  &trans                    &trans  &trans  &kp LS(NUMBER_1)  &kp LS(SLASH)     &trans  &trans
+&kp F3  &kp F4  &kp F9   &kp F10  &trans  &trans                    &trans  &trans  &kp LS(NUMBER_3)  &kp LS(NUMBER_4)  &trans  &trans
+&kp F5  &kp F6  &kp F11  &kp F12  &trans  &trans                    &trans  &trans  &kp LS(N5)        &kp LS(NUMBER_6)  &trans  &trans
+        &trans  &trans   &trans   &trans  &trans  &trans    &trans  &trans                            &trans            &trans
             >;
         };
 
