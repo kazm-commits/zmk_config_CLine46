@@ -95,7 +95,7 @@ layers:
   - DEL
   - {t: ▽, type: trans}
   MOUSE:
-  - {t: ▽, type: trans}
+  - F1
   - {t: ▽, type: trans}
   - F7
   - F8
