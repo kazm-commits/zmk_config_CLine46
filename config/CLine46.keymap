@@ -56,7 +56,7 @@
         };
 
         Lkagikakko {
-            bindings = <&kp LBKT>;
+            bindings = <&kp RBKT>;
             key-positions = <12 15>;
         };
 
@@ -83,6 +83,21 @@
         comma {
             bindings = <&kp COMMA>;
             key-positions = <20 21>;
+        };
+
+        apos {
+            bindings = <&kp N7>;
+            key-positions = <32 33>;
+        };
+
+        rkakko {
+            bindings = <&kp LS(N9)>;
+            key-positions = <20 22>;
+        };
+
+        migikagikakko {
+            bindings = <&kp BACKSLASH>;
+            key-positions = <20 23>;
         };
     };
 
