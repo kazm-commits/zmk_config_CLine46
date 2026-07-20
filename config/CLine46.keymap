@@ -49,6 +49,41 @@
             bindings = <&kp TAB>;
             key-positions = <26 27>;
         };
+
+        Lkakko {
+            bindings = <&kp LS(N8)>;
+            key-positions = <13 15>;
+        };
+
+        Lkagikakko {
+            bindings = <&kp LBKT>;
+            key-positions = <12 15>;
+        };
+
+        dublequort {
+            bindings = <&kp LS(NUMBER_2)>;
+            key-positions = <9 10>;
+        };
+
+        dot {
+            bindings = <&kp DOT>;
+            key-positions = <21 22>;
+        };
+
+        quort {
+            bindings = <&kp LS(N7)>;
+            key-positions = <33 34>;
+        };
+
+        semicolon {
+            bindings = <&kp SEMI>;
+            key-positions = <8 9>;
+        };
+
+        comma {
+            bindings = <&kp COMMA>;
+            key-positions = <20 21>;
+        };
     };
 
     macros {
