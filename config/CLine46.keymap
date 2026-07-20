@@ -62,9 +62,9 @@
 
         default_layer {
             bindings = <
-&kp Q  &kp W    &kp D     &kp R     &kp V               &none                                          &none                &kp Y  &kp Y  &kp K         &kp P    &kp LEFT_BRACKET
+&kp Q  &kp W    &kp D     &kp R     &kp V               &none                                          &none                &kp Y  &kp Y  &kp K         &kp P    &mt2 LBKT SLASH
 &kp A  &kp S    &kp E     &kp T     &kp G               &none                                          &none                &kp H  &kp U  &mt2 RSHFT I  &kp O    &mt2 EQUAL MINUS
-&kp Z  &kp X    &kp C     &kp B     &kp F               &none                                          &none                &kp J  &kp N  &kp M         &lt 4 L  &kp RSHIFT
+&kp Z  &kp X    &kp C     &kp B     &kp F               &none                                          &none                &kp J  &kp N  &kp M         &lt 4 L  &kp INTERNATIONAL_1
        &kp ESC  &kp LGUI  &kp LALT  &lt 3 INT_MUHENKAN  &lt 1 SPACE  &mt LSFT INT_HENKAN    &lt 2 RET  &mt RSHFT BACKSPACE                &kp NUMBER_9  &kp DEL
             >;
         };
