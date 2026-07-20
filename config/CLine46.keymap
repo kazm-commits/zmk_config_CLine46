@@ -62,10 +62,10 @@
 
         default_layer {
             bindings = <
-&kp Q  &kp W    &kp D     &kp R     &kp V               &none                                        &none     &kp Y  &kp Y  &kp K         &kp P    &kp LEFT_BRACKET
-&kp A  &kp S    &kp E     &kp T     &kp G               &none                                        &none     &kp H  &kp U  &mt2 RSHFT I  &kp O    &mt2 MINUS EQUAL
-&kp Z  &kp X    &kp C     &kp B     &kp F               &none                                        &none     &kp J  &kp N  &kp M         &lt 3 L  &kp RSHIFT
-       &kp ESC  &kp LGUI  &kp LALT  &lt 2 INT_MUHENKAN  &lt 1 SPACE  &mt LSFT INT_HENKAN    &kp RET  &kp BSPC                &kp NUMBER_9  &kp DEL
+&kp Q  &kp W    &kp D     &kp R     &kp V               &none                                          &none                &kp Y  &kp Y  &kp K         &kp P    &kp LEFT_BRACKET
+&kp A  &kp S    &kp E     &kp T     &kp G               &none                                          &none                &kp H  &kp U  &mt2 RSHFT I  &kp O    &mt2 MINUS EQUAL
+&kp Z  &kp X    &kp C     &kp B     &kp F               &none                                          &none                &kp J  &kp N  &kp M         &lt 4 L  &kp RSHIFT
+       &kp ESC  &kp LGUI  &kp LALT  &lt 3 INT_MUHENKAN  &lt 1 SPACE  &mt LSFT INT_HENKAN    &lt 2 RET  &mt RSHFT BACKSPACE                &kp NUMBER_9  &kp DEL
             >;
         };
 
@@ -75,6 +75,15 @@
 &kp PAGE_DOWN  &kp LEFT_ARROW  &kp DOWN      &kp RIGHT  &kp NUMBER_6     &kp HASH                            &kp LEFT_BRACKET      &kp SINGLE_QUOTE   &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp PIPE
 &kp LC(Z)      &kp LC(X)       &kp LC(C)     &kp LC(V)  &kp PRINTSCREEN  &kp PRINTSCREEN                     &kp SLASH             &kp BACKSLASH      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERCENT
                &kp ESC         &kp NUMBER_0  &kp DOT    &trans           &trans           &trans    &kp RET  &kp NUMBER_0                                           &kp DEL       &trans
+            >;
+        };
+
+        layer_5 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
+        &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                  &trans  &trans
             >;
         };
 
@@ -102,15 +111,6 @@
 &trans  &trans  &bt BT_SEL 4  &trans        &trans        &trans                    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
         &trans  &bt BT_SEL 0  &trans        &trans        &trans  &trans    &trans  &trans                  &trans  &trans
-            >;
-        };
-
-        layer_5 {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
-        &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                  &trans  &trans
             >;
         };
 
