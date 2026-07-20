@@ -16,7 +16,7 @@
         compatible = "zmk,combos";
 
         shift_tab {
-            bindings = <&kp LS(GRAVE)>;
+            bindings = <&kp GRAVE>;
             key-positions = <0 1>;
         };
 
