@@ -86,7 +86,7 @@
         };
 
         apos {
-            bindings = <&kp LS(N7)>;
+            bindings = <&kp APOS>;
             key-positions = <32 33>;
         };
 
