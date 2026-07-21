@@ -152,7 +152,7 @@
 &kp Q  &kp W            &mt2 LEFT_GUI D    &kp R                &kp V               &none                                          &none                &kp Y  &kp Y                 &mt2 RIGHT_GUI K  &kp P             &mt2 LBKT SLASH
 &kp A  &mt2 LEFT_ALT S  &mt2 LEFT_SHIFT E  &mt2 LEFT_CONTROL T  &kp G               &none                                          &none                &kp H  &mt2 RIGHT_CONTROL U  &mt2 RSHFT I      &mt2 RIGHT_ALT O  &mt2 EQUAL MINUS
 &kp Z  &kp X            &kp C              &kp B                &kp F               &none                                          &none                &kp J  &kp N                 &kp M             &lt 4 L           &lt2 3 INT1
-       &kp ESC          &kp LGUI           &kp LALT             &lt 3 INT_MUHENKAN  &lt 1 SPACE  &mt LSFT INT_HENKAN    &lt 2 RET  &mt RSHFT BACKSPACE                               &none             &kp DEL
+       &kp ESC          &kp LGUI           &kp LALT             &lt 2 INT_MUHENKAN  &lt 1 SPACE  &mt LSFT INT_HENKAN    &lt 2 RET  &mt RSHFT BACKSPACE                               &none             &kp DEL
             >;
         };
 
