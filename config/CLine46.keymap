@@ -152,24 +152,24 @@
 &kp Q  &kp W            &mt2 LEFT_GUI D    &kp R                &kp V               &none                                          &none                &kp Y  &kp Y                 &mt2 RIGHT_GUI K  &kp P             &mt2 LBKT SLASH
 &kp A  &mt2 LEFT_ALT S  &mt2 LEFT_SHIFT E  &mt2 LEFT_CONTROL T  &kp G               &none                                          &none                &kp H  &mt2 RIGHT_CONTROL U  &mt2 RSHFT I      &mt2 RIGHT_ALT O  &mt2 EQUAL MINUS
 &kp Z  &kp X            &kp C              &kp B                &kp F               &none                                          &none                &kp J  &kp N                 &kp M             &lt 4 L           &lt2 3 INT1
-       &kp ESC          &kp LGUI           &kp LALT             &lt 3 INT_MUHENKAN  &lt 1 SPACE  &mt LSFT INT_HENKAN    &lt 2 RET  &mt RSHFT BACKSPACE                               &kp NUMBER_9      &kp DEL
+       &kp ESC          &kp LGUI           &kp LALT             &lt 3 INT_MUHENKAN  &lt 1 SPACE  &mt LSFT INT_HENKAN    &lt 2 RET  &mt RSHFT BACKSPACE                               &none             &kp DEL
             >;
         };
 
         layer_1 {
             bindings = <
-&kp PAGE_UP    &kp HOME        &kp UP_ARROW  &kp END    &mkp MB5         &trans                     &trans        &kp DOUBLE_QUOTES  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp QMARK
-&kp PAGE_DOWN  &kp LEFT_ARROW  &kp DOWN      &kp RIGHT  &mkp MB4         &trans                     &trans        &kp KP_MINUS       &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp KP_SLASH
-&kp LC(Z)      &kp LC(X)       &kp LC(C)     &kp LC(V)  &kp PRINTSCREEN  &trans                     &trans        &kp KP_PLUS        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERCENT
-               &kp ESC         &kp NUMBER_0  &kp DOT    &trans           &trans  &trans    &kp RET  &kp NUMBER_0                                   &kp DEL       &trans
+&kp PAGE_UP    &kp HOME        &kp UP_ARROW  &kp END    &mkp MB5         &trans                     &trans        &none         &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &none
+&kp PAGE_DOWN  &kp LEFT_ARROW  &kp DOWN      &kp RIGHT  &mkp MB4         &trans                     &trans        &kp KP_MINUS  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp KP_SLASH
+&kp LC(Z)      &kp LC(X)       &kp LC(C)     &kp LC(V)  &kp PRINTSCREEN  &trans                     &trans        &kp KP_PLUS   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp ASTRK
+               &kp ESC         &kp NUMBER_0  &kp DOT    &trans           &trans  &trans    &kp RET  &kp NUMBER_0                              &kp DEL       &trans
             >;
         };
 
         layer_5 {
             bindings = <
-&kp F1  &kp F2  &kp F7   &kp F8   &trans  &trans                    &trans  &trans  &kp LS(NUMBER_1)  &kp LS(SLASH)     &trans  &trans
-&kp F3  &kp F4  &kp F9   &kp F10  &trans  &trans                    &trans  &trans  &kp LS(NUMBER_3)  &kp LS(NUMBER_4)  &trans  &trans
-&kp F5  &kp F6  &kp F11  &kp F12  &trans  &trans                    &trans  &trans  &kp LS(N5)        &kp LS(NUMBER_6)  &trans  &trans
+&kp F1  &kp F2  &kp F7   &kp F8   &trans  &trans                    &trans  &trans  &kp LS(NUMBER_1)  &kp LS(SLASH)     &kp INT3      &trans
+&kp F3  &kp F4  &kp F9   &kp F10  &trans  &trans                    &trans  &trans  &kp LS(NUMBER_3)  &kp LS(NUMBER_4)  &kp LS(INT3)  &trans
+&kp F5  &kp F6  &kp F11  &kp F12  &trans  &trans                    &trans  &trans  &kp LS(N5)        &kp LS(NUMBER_6)  &kp EQUAL     &trans
         &trans  &trans   &trans   &trans  &trans  &trans    &trans  &trans                            &trans            &trans
             >;
         };
