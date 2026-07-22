@@ -99,6 +99,16 @@
             bindings = <&kp BACKSLASH>;
             key-positions = <20 23>;
         };
+
+        mb1 {
+            bindings = <&mkp MB1>;
+            key-positions = <20 32>;
+        };
+
+        mb2 {
+            bindings = <&mkp MB2>;
+            key-positions = <21 33>;
+        };
     };
 
     macros {
