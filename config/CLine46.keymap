@@ -125,6 +125,13 @@
             bindings = <&kp S &kp H>;
             label = "NEW_MACRO";
         };
+
+        ssh: ssh {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp S &kp S &kp H>;
+            label = "SSH";
+        };
     };
 
     behaviors {
@@ -148,7 +155,7 @@
             flavor = "tap-preferred";
         };
 
-        lt2: lt2 {
+        lt2: layer_tap2 {
             compatible = "zmk,behavior-hold-tap";
             bindings = <&mo>, <&kp>;
 
@@ -157,7 +164,14 @@
             quick-tap-ms = <200>;
             require-prior-idle-ms = <125>;
             flavor = "tap-preferred";
-            label = "LT2";
+        };
+
+        td_sh: tap_dance_sh {
+            compatible = "zmk,behavior-tap-dance";
+            #binding-cells = <0>;
+            bindings = <&sh>, <&ssh>;
+
+            tapping-term-ms = <80>;
         };
     };
 
@@ -166,10 +180,10 @@
 
         default_layer {
             bindings = <
-&kp Q  &kp W            &mt2 LEFT_GUI D    &kp R                &kp V               &none                                       &none                &sh    &kp Y                 &mt2 RIGHT_GUI K  &kp P             &mt2 LBKT SLASH
-&kp A  &mt2 LEFT_ALT S  &mt2 LEFT_SHIFT E  &mt2 LEFT_CONTROL T  &kp G               &none                                       &none                &kp H  &mt2 RIGHT_CONTROL U  &mt2 RSHFT I      &mt2 RIGHT_ALT O  &mt2 EQUAL MINUS
-&kp Z  &kp X            &kp C              &kp B                &kp F               &none                                       &none                &kp J  &kp N                 &kp M             &lt 4 L           &lt2 3 INT1
-       &none            &none              &none                &lt 2 INT_MUHENKAN  &lt 1 SPACE  &lt 3 INT_HENKAN    &lt 2 RET  &mt RSHFT BACKSPACE                               &none             &none
+&kp Q  &kp W            &mt2 LEFT_GUI D    &kp R                &kp V               &none                                       &none                &td_sh  &kp Y                 &mt2 RIGHT_GUI K  &kp P             &mt2 LBKT SLASH
+&kp A  &mt2 LEFT_ALT S  &mt2 LEFT_SHIFT E  &mt2 LEFT_CONTROL T  &kp G               &none                                       &none                &kp H   &mt2 RIGHT_CONTROL U  &mt2 RSHFT I      &mt2 RIGHT_ALT O  &mt2 EQUAL MINUS
+&kp Z  &kp X            &kp C              &kp B                &kp F               &none                                       &none                &kp J   &kp N                 &kp M             &lt 4 L           &lt2 3 INT1
+       &none            &none              &none                &lt 2 INT_MUHENKAN  &lt 1 SPACE  &lt 3 INT_HENKAN    &lt 2 RET  &mt RSHFT BACKSPACE                                &none             &none
             >;
         };
 
