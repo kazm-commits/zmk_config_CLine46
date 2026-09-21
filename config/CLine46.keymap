@@ -171,7 +171,7 @@
             #binding-cells = <0>;
             bindings = <&sh>, <&ssh>;
 
-            tapping-term-ms = <200>;
+            tapping-term-ms = <150>;
         };
     };
 
