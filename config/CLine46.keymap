@@ -166,18 +166,18 @@
 
         default_layer {
             bindings = <
-&kp Q  &kp W            &mt2 LEFT_GUI D    &kp R                &kp V               &none                                          &none                &sh    &kp Y                 &mt2 RIGHT_GUI K  &kp P             &mt2 LBKT SLASH
-&kp A  &mt2 LEFT_ALT S  &mt2 LEFT_SHIFT E  &mt2 LEFT_CONTROL T  &kp G               &none                                          &none                &kp H  &mt2 RIGHT_CONTROL U  &mt2 RSHFT I      &mt2 RIGHT_ALT O  &mt2 EQUAL MINUS
-&kp Z  &kp X            &kp C              &kp B                &kp F               &none                                          &none                &kp J  &kp N                 &kp M             &lt 4 L           &lt2 3 INT1
-       &none            &none              &none                &lt 2 INT_MUHENKAN  &lt 1 SPACE  &mt LSFT INT_HENKAN    &lt 2 RET  &mt RSHFT BACKSPACE                               &none             &none
+&kp Q  &kp W            &mt2 LEFT_GUI D    &kp R                &kp V               &none                                       &none                &sh    &kp Y                 &mt2 RIGHT_GUI K  &kp P             &mt2 LBKT SLASH
+&kp A  &mt2 LEFT_ALT S  &mt2 LEFT_SHIFT E  &mt2 LEFT_CONTROL T  &kp G               &none                                       &none                &kp H  &mt2 RIGHT_CONTROL U  &mt2 RSHFT I      &mt2 RIGHT_ALT O  &mt2 EQUAL MINUS
+&kp Z  &kp X            &kp C              &kp B                &kp F               &none                                       &none                &kp J  &kp N                 &kp M             &lt 4 L           &lt2 3 INT1
+       &none            &none              &none                &lt 2 INT_MUHENKAN  &lt 1 SPACE  &lt 3 INT_HENKAN    &lt 2 RET  &mt RSHFT BACKSPACE                               &none             &none
             >;
         };
 
         layer_1 {
             bindings = <
 &kp PAGE_UP    &kp HOME        &kp UP_ARROW  &kp END    &mkp MB5         &trans                     &kp LS(LG(RIGHT))  &kp KP_PLUS        &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp KP_SLASH
-&kp PAGE_DOWN  &kp LEFT_ARROW  &kp DOWN      &kp RIGHT  &mkp MB4         &trans                     &kp LS(LG(LEFT))   &kp KP_MINUS       &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp KP_MINUS
-&kp LC(Z)      &kp LC(X)       &kp LC(C)     &kp LC(V)  &kp PRINTSCREEN  &trans                     &trans             &kp LS(BACKSPACE)  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp LS(KP_DOT)
+&kp PAGE_DOWN  &kp LEFT_ARROW  &kp DOWN      &kp RIGHT  &mkp MB4         &trans                     &kp LS(LG(LEFT))   &kp LS(APOS)       &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp KP_MINUS
+&kp LC(Z)      &kp LC(X)       &kp LC(C)     &kp LC(V)  &kp PRINTSCREEN  &trans                     &trans             &kp LS(BACKSPACE)  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp KP_DOT
                &none           &none         &none      &trans           &trans  &trans    &kp RET  &kp NUMBER_0                                        &none         &none
             >;
         };
